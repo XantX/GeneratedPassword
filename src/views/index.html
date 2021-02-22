@@ -4,6 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container title">
+      <h1>Generator Passwords</h1>
+    </div>
+    <div class="container inputCharacters">
+      <input
+        type="text"
+        name="NumberCharacters"
+        placeholder="Number of characters"
+      />
+    </div>
+    <div class="container">
+      <div class="subTitle">
+        <h5>Resultado</h5>
+      </div>
+      <div class="resultado">
+        <img src="images/padlock.png" class="icono">
+        <h3 name="password"></h3>
+      </div>
+    </div>
+    <div class="container botonSeccion">
+      <button class="btn-large waves-effect waves-light botonColor">
+        Generar
+      </button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
 </html>

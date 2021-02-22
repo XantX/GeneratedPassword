@@ -1,0 +1,32 @@
+.title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.inputCharacters {
+  display: flex;
+  justify-content: center;
+}
+input {
+  text-align: center;
+}
+.resultado {
+  background: linear-gradient(to right top, #65dfc9, #6cdbed);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto 50px;
+}
+.botonSeccion {
+  display: flex;
+  justify-content: center;
+}
+.subTitle {
+  display: flex;
+  justify-content: center;
+}
+.icono {
+  position: absolute;
+  left: 10%;
+  height: 50px;
+}
