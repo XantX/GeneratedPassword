@@ -17,8 +17,9 @@
     <div class="container inputCharacters">
       <input
         type="text"
-        name="NumberCharacters"
+        id="NumberCharacters"
         placeholder="Number of characters"
+        pattern="[0-9]+"
       />
     </div>
     <div class="container">
@@ -26,15 +27,19 @@
         <h5>Resultado</h5>
       </div>
       <div class="resultado">
-        <img src="images/padlock.png" class="icono">
-        <h3 name="password"></h3>
+        <h3 id="password" style="margin-bottom: 25px"></h3>
       </div>
     </div>
     <div class="container botonSeccion">
-      <button class="btn-large waves-effect waves-light botonColor">
+      <button
+        class="btn-large waves-effect waves-light botonColor"
+        onclick="generated()"
+        id="submitButton"
+      >
         Generar
       </button>
     </div>
+    <script src="sricpts/app.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   </body>
 </html>
