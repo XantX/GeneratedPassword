@@ -19,15 +19,25 @@
         type="text"
         id="NumberCharacters"
         placeholder="Number of characters"
-        pattern="[0-9]+"
       />
     </div>
     <div class="container">
       <div class="subTitle">
-        <h5>Resultado</h5>
+        <h4>Resultado</h4>
       </div>
       <div class="resultado">
         <h3 id="password" style="margin-bottom: 25px"></h3>
+
+        <div class="tooltip">
+          <button
+            class="btn-large waves-effect waves-light"
+            onclick="myFunction()"
+            onmouseout="outFunc()"
+          >
+          Copy
+          </button>
+        </div>
+
       </div>
     </div>
     <div class="container botonSeccion">
