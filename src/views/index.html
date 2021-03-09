@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
@@ -27,17 +26,14 @@
       </div>
       <div class="resultado">
         <h3 id="password" style="margin-bottom: 25px"></h3>
-
-        <div class="tooltip">
-          <button
-            class="btn-large waves-effect waves-light"
-            onclick="myFunction()"
-            onmouseout="outFunc()"
-          >
+        <button
+          class="btn-large waves-effect waves-purple"
+          data-position="right"
+          data-tooltip="Copy"
+          onclick="myFunction(), notifications()"
+        >
           Copy
-          </button>
-        </div>
-
+        </button>
       </div>
     </div>
     <div class="container botonSeccion">
@@ -49,7 +45,8 @@
         Generar
       </button>
     </div>
-    <script src="sricpts/app.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="sricpts/app.js"></script>
+    <script src="sricpts/notifycations.js"></script>
   </body>
 </html>

@@ -51,7 +51,6 @@ function myFunction() {
 
   // Copia el texto seleccionado
   document.execCommand("copy");
-  alert("Copied the text: " + aux.value);
   // Elimina el campo de la página
   document.body.removeChild(aux);
 }
